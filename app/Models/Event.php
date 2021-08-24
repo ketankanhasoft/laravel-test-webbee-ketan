@@ -16,5 +16,8 @@ class Event extends Model
     {
         return $this->hasMany(Workshop::class,"event_id","id");
     }
+    
+
+    
 }
 
